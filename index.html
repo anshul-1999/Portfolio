@@ -1,616 +1,676 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Anshul Sharma | Data Analyst</title>
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script>
-    (function(){
+    (function () {
       emailjs.init("8aGFjcS6teS8Yb4Q4");
     })();
   </script>
 </head>
+
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container header-content">
-            <img src="images/Photo_ID.jpeg" alt="Anshul Sharma" class="profile-img">
-            <div class="header-text">
-                <h1>Anshul Sharma</h1>
-                <h2>Data Analyst</h2>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>anshulsharma.de@gmail.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>+49 15212596460</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Berlin, Germany</span>
-                    </div>
-                </div>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/ansshulsharmaa/"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/anshul-1999/"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
+
+<header>
+  <div class="container header-content">
+    <img src="images/Photo_ID.jpeg" alt="Anshul Sharma" class="profile-img">
+
+    <div class="header-text">
+      <h1>Anshul Sharma</h1>
+      <h2>Data Analyst | Python • SQL • Machine Learning</h2>
+
+      <p class="hero-tagline">
+        Turning complex data into actionable insights through analytics,
+        visualization, machine learning, and modern AI systems.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="hero-btn primary">
+          <i class="fas fa-code"></i> View Projects
+        </a>
+
+        <a href="#contact" class="hero-btn secondary">
+          <i class="fas fa-envelope"></i> Contact Me
+        </a>
+
+        <a href="resume.pdf" class="hero-btn secondary" target="_blank" rel="noopener">
+          <i class="fas fa-download"></i> Resume
+        </a>
+      </div>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>anshulsharma.de@gmail.com</span>
         </div>
-    </header>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="container nav-container">
-            <a href="#" class="logo">Anshul<span> Sharma</span></a>
-            <ul class="nav-links">
-                <!--<li><a href="#home" class="active">Home</a></li>-->
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certificates">Certificates</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </button>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+49 15212596460</span>
         </div>
-    </nav>
 
-    <!-- Main Content -->
-    <main>
-        <!-- About Section -->
-        <section id="about" class="section">
-            <div class="container">
-                <div class="section-title">
-                    <h2>About Me</h2>
-                </div>
-                <div class="about-content">
-                    <div class="about-text">
-                        <h3>Data Analyst with 2+ Years of Experience</h3>
-                        <p>
-                            I'm a Data Analyst with more than 2 years of experience in implementing impactful projects through data mining, statistical analysis, and data visualization. My solid knowledge in Python and SQL enables me to translate complex datasets into actionable insights to support informed decisions.
-                        </p>
-                        <p>
-                            I have demonstrated ability to improve user engagement and project outcomes through innovative solutions and careful planning. Skilled in using tools like Tableau to present data-based relationships for strategic growth and operational efficiency.
-                        </p>
-                        <div class="skills">
-                            <span class="skill">Python</span>
-                            <span class="skill">SQL</span>
-                            <span class="skill">Tableau</span>
-                            <span class="skill">Data Analysis</span>
-                            <span class="skill">Machine Learning</span>
-                            <span class="skill">Data Visualization</span>
-                            <span class="skill">Pandas</span>
-                            <span class="skill">NumPy</span>
-                            <span class="skill">Statistical Analysis</span>
-                            <span class="skill">HTML5</span>
-                            <span class="skill">CSS3</span>
-                            <span class="skill">PHP</span>
-                            <span class="skill">Javascript</span>
-                            <span class="skill">React JS</span>
-                        </div>
-                    </div>
-                    <div class="about-img">
-                        <img src="images/about_me.png" alt="About Anshul Sharma">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="section">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Work Experience</h2>
-                </div>
-                <div class="experience-container">
-                    <!-- Experience Item 1 -->
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <h3 class="experience-title">Sr. Project Technical Assistant</h3>
-                            <span class="experience-date">Nov 2021 - Jun 2024</span>
-                        </div>
-                        <span class="experience-company">IIT Bombay | Mumbai, India</span>
-                        <p class="experience-description">
-                            Supported the creation of technical documentation and ensured compliance with project specifications. Maintained and managed project schedules with project management software for timely delivery and improved user experience.
-                        </p>
-                        <ul class="experience-points">
-                            <li>Collaborated with technical teams for accurate and timely results and to increase customer satisfaction</li>
-                            <li>Identified and mitigated project risks through appropriate strategies</li>
-                            <li>Applied data analysis techniques to track user behavior and improve user interface</li>
-                            <li>Developed new features through web research and innovative web techniques</li>
-                        </ul>
-                        <div class="experience-skills">
-                            <span class="experience-skill">Data Analysis</span>
-                            <span class="experience-skill">Project Management</span>
-                            <span class="experience-skill">Technical Documentation</span>
-                            <span class="experience-skill">User Experience</span>
-                        </div>
-                    </div>
-
-                    <!-- Experience Item 2 -->
-                    <div class="experience-item">
-                        <div class="experience-header">
-                            <h3 class="experience-title">Data Science Intern (Remote)</h3>
-                            <span class="experience-date">Dec 2022 - Jun 2023</span>
-                        </div>
-                        <span class="experience-company">Fliprobo Technologies | Bangalore, India</span>
-                        <p class="experience-description">
-                            Applied SQL, Python and data analysis in various projects. Used Beautiful Soup for web scraping and data collection from online sources.
-                        </p>
-                        <ul class="experience-points">
-                            <li>Preprocessed data with Pandas and generated new features</li>
-                            <li>Automated data processes with NumPy & Pandas</li>
-                            <li>Improved Tableau analyses through self-study in Python, R, SQL</li>
-                            <li>Developed data models to analyze complex datasets</li>
-                            <li>Optimized ML models to improve prediction accuracy</li>
-                        </ul>
-                        <div class="experience-skills">
-                            <span class="experience-skill">Python</span>
-                            <span class="experience-skill">SQL</span>
-                            <span class="experience-skill">Pandas</span>
-                            <span class="experience-skill">Web Scraping</span>
-                            <span class="experience-skill">Machine Learning</span>
-                        </div>
-                    </div>
-
-                    <!-- Add more experience items here as needed -->
-                    <!-- Copy the experience-item div above and paste below to add more experiences -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education" class="section">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Education</h2>
-                </div>
-                <div class="education-container">
-                    <!-- Edu Item : -->
-                    <div class="education-item">
-                        <div class="education-icon">
-                            <i class="fas fa-language"></i>
-                        </div>
-                        <h3 class="education-title">Masters Data Science</h3>
-                        <span class="education-school">XU Exponential University of Applied Science, Potsdam, Germany</span>
-                        <span class="education-date">October 2025 - September 2027</span>
-                        <p class="education-description">
-                            Start of the Master's program from October 2025.
-                        </p>
-                    </div>
-
-                    <!-- Education Item 1 -->
-                    <div class="education-item">
-                        <div class="education-icon">
-                            <i class="fas fa-language"></i>
-                        </div>
-                        <h3 class="education-title">Intensive German Language Course (A1 to C1)</h3>
-                        <span class="education-school">Acrolect International Sprachschule | Germany</span>
-                        <span class="education-date">Dec 2024 - Present</span>
-                        <p class="education-description">
-                            Full-time intensive German course at Acrolect International Language School. Currently at B2 level with focus on professional language skills: communication, grammar, written expression.
-                        </p>
-                    </div>
-
-                    <!-- Education Item 2 -->
-                    <div class="education-item">
-                        <div class="education-icon">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <h3 class="education-title">Bachelor of Technology</h3>
-                        <span class="education-school">Dr. A.P.J. Abdul Kalam Technical University | Lucknow, India</span>
-                        <span class="education-date">Aug 2017 - Sep 2021</span>
-                        <p class="education-description">
-                            Graduated with 1st Division in Computer Science and Engineering. Gained comprehensive knowledge in programming, algorithms, data structures, and software development.
-                        </p>
-                    </div>
-
-                    <!-- Education Item 3 -->
-                    <div class="education-item">
-                        <div class="education-icon">
-                            <i class="fas fa-school"></i>
-                        </div>
-                        <h3 class="education-title">High School</h3>
-                        <span class="education-school">St. John's Senior Secondary School | Meerut, India</span>
-                        <span class="education-date">Mar 2014 - Apr 2017</span>
-                        <p class="education-description">
-                            Completed secondary and upper secondary education (Class 10-12) with focus on science and mathematics. Developed foundational skills in problem-solving and analytical thinking.
-                        </p>
-                    </div>
-
-                    <!-- Add more education items here as needed -->
-                    <!-- Copy the education-item div above and paste below to add more education -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Projects</h2>
-                </div>
-                <div class="projects-container">
-                    <!-- Project Item 1 -->
-                    <div class="project-item">
-                        <div class="project-img">
-                            <img class="project-image" src="images/Portfolio_crime.png" alt="Crime in India Analysis">
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Crime in India (Analysis and Clustering)</h3>
-                            <p class="project-description">
-                                Data analysis & clustering to assess criminal danger zones. Analyzed education level vs. crime, year-by-year, geographical differences. Used SQL operations to extract relevant district data.
-                            </p>
-                            <div class="project-skills">
-                                <span class="project-skill">Python</span>
-                                <span class="project-skill">SQL</span>
-                                <span class="project-skill">Tableau</span>
-                                <span class="project-skill">Machine Learning</span>
-                                <span class="project-skill">Clustering</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/anshul-1999/Crime-Capstone" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    <span>View on GitHub</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project Item 2 -->
-                    <div class="project-item">
-                        <div class="project-img">
-                            <img class="project-image" src="images/Portfolio_pryas.png" alt="Pryas School Management System">
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Pryas - School Management System</h3>
-                            <p class="project-description">
-                                Bachelor thesis project based on a web-based School Management System that manages an online examination system, school competitions, note exchange, and various exam formats at different schools.
-                            </p>
-                            <div class="project-skills">
-                                <span class="project-skill">Web Development</span>
-                                <span class="project-skill">Database</span>
-                                <span class="project-skill">System Design</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://www.ijaresm.com/pryas" class="project-link">
-                                    <i class="fas fa-link"></i>
-                                    <span>View Research</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project Item 3 -->
-                     <div class="project-item">
-                        <div class="project-img">
-                            <img class="project-image" src="images/assistant.png" alt="Assistant">
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">AI Assistant with Long-Term Memory, Voice & Streaming Chat UI</h3>
-                            <p class="project-description">
-                                A fully local AI assistant with persistent memory, voice interaction, and ChatGPT-style streaming interface using open-source LLMs.
-                            </p>
-                            <div class="project-skills">
-                                <span class="project-skill">Python</span>
-                                <span class="project-skill">Streamlit</span>
-                                <span class="project-skill">Ollama</span>
-                                <span class="project-skill">Docker</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/anshul-1999/AI_Assistant" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    <span>View on GitHub</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project Item 4 -->
-                     <div class="project-item">
-                        <div class="project-img">
-                            <img class="project-image" src="images/docs.png" alt="Docs">
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">AI Document Search & Chat (Hybrid RAG System)</h3>
-                            <p class="project-description">
-                                An end-to-end Retrieval-Augmented Generation (RAG) system that allows users to upload PDFs and interact with them using natural language chat.
-                            </p>
-                            <div class="project-skills">
-                                <span class="project-skill">Python</span>
-                                <span class="project-skill">FastAPI</span>
-                                <span class="project-skill">Streamlit</span>
-                                <span class="project-skill">BM 25</span>
-                                <span class="project-skill">Ollama</span>
-                                <span class="project-skill">FAISS</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/anshul-1999/AI_DOC_Search" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    <span>View on GitHub</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                     
-                    <!-- Project Item 5 -->
-                     <div class="project-item">
-                        <div class="project-img">
-                            <img class="project-image" src="images/Parallel.jpg" alt="Docs">
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Multi-Node Distributed File Scanning System (C++ & MPI)</h3>
-                            <p class="project-description">
-                                Developed a distributed-memory parallel system using MPI and C++ multithreading that scans and analyzes files across multiple nodes simultaneously, implementing a coordinator–worker architecture for task distribution and result aggregation (including duplicate detection via MD5/SHA256 hashing) while evaluating parallel efficiency and scalability for high-performance distributed data pipelines.
-                            </p>
-                            <div class="project-skills">
-                                <span class="project-skill">C++</span>
-                                <span class="project-skill">MPI</span>
-                                <span class="project-skill">Multithreading</span>
-                                <span class="project-skill">File Hashing</span>
-                                <span class="project-skill">Parallel Computing</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/anshul-1999/Multi-Node-Distributed-File-Scanning-System-C-MPI-" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    <span>View on GitHub</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Project Item 6 -->
-                     <div class="project-item">
-                        <div class="project-img">
-                            <img class="project-image" src="images/IR.jpg" alt="Docs">
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Offline Information Retrieval (IR) & Search System (Python & Flask) </h3>
-                            <p class="project-description">
-                               Built a complete IR processing pipeline with TF-IDF indexing and a Vector Space Model using cosine similarity for ranked retrieval, alongside a Flask-based web interface for real-time keyword search and trend analysis, and evaluated performance using Precision@K metrics to ensure rigorous experimental validation.
-                            </p>
-                            <div class="project-skills">
-                                <span class="project-skill">Python</span>
-                                <span class="project-skill">Flask</span>
-                                <span class="project-skill">IR(TF-IDF, Cosine Similarity)</span>
-                                <span class="project-skill">Text Preprocessing</span>
-                                <span class="project-skill">Precision@K</span>
-                                <span class="project-skill">Search Ranking</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/anshul-1999/Offline-Information-Retrieval-IR-Search-System-Python-Flask-" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    <span>View on GitHub</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Add more project items here as needed -->
-                    <!-- Copy the project-item div above and paste below to add more projects -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Certificates Section -->
-        <section id="certificates" class="section">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Certificates</h2>
-                </div>
-                <div class="certificates-container">
-                    <!-- Certificate Item 1 -->
-                    <div class="certificate-item">
-                        <h3 class="certificate-title">BCG Data Science Job Simulation</h3>
-                        <span class="certificate-issuer">Forage | July 2025</span>
-                        <span class="certificate-date">July 2025</span>
-                        <p class="certificate-description">
-                            Conducted a customer churn analysis simulation for XYZ Analytics, demonstrating advanced data analysis skills. Identified key customer data and developed a strategic investigation approach. Efficient data analysis with Python using Pandas and NumPy.
-                        </p>
-                    </div>
-
-                    <!-- Certificate Item 2 -->
-                    <div class="certificate-item">
-                        <h3 class="certificate-title">Quantium Data Analytics Job Simulation</h3>
-                        <span class="certificate-issuer">Forage | May 2025</span>
-                        <span class="certificate-date">May 2025</span>
-                        <p class="certificate-description">
-                            Conducted a practical simulation focusing on Data Analytics and Commercial Insights in the Data Science team. Developed expertise in data preparation and customer analysis using transaction data to derive valuable insights.
-                        </p>
-                    </div>
-
-                    <!-- Certificate Item 3 -->
-                    <div class="certificate-item">
-                        <h3 class="certificate-title">PG Program in Data Science</h3>
-                        <span class="certificate-issuer">Datatrained | Noida, India</span>
-                        <span class="certificate-date">Aug 2022 - Sep 2023</span>
-                        <p class="certificate-description">
-                            Certificates in Python for Data Science, Data Wrangling and Visualization for Python, SQL for Data Science, and Applied Statistics for Data Science and Analytics.
-                        </p>
-                    </div>
-
-                    <div class="certificate-item">
-                        <h3 class="certificate-title">Deloitte Australia Data Analytics Job Simulation</h3>
-                        <span class="certificate-issuer">Forage | May 2026</span>
-                        <span class="certificate-date">May 2026</span>
-                        <p class="certificate-description">
-                            Completed a Deloitte job simulation involving data analysis and forensic technology, where I created an interactive data dashboard using Tableau and used Microsoft Excel to classify data, analyze equality metrics, and draw business conclusions from operational and employee compensation datasets.
-                        </p>
-                    </div>
-
-                    <div class="certificate-item">
-                        <h3 class="certificate-title">Electronic Arts Software Engineering virtual experience program</h3>
-                        <span class="certificate-issuer">Forage | May 2026</span>
-                        <span class="certificate-date">May 2026</span>
-                        <p class="certificate-description">
-                            Proposed a new feature for EA Sports College Football and wrote a detailed feature proposal for stakeholders, built a class diagram and developed a C++ header file with class definitions for multiple game objects, and patched a live bug while optimizing the game’s inventory system by implementing a more efficient data structure and improving item removal functionality.
-                        </p>
-                    </div>
-
-                    <div class="certificate-item">
-                        <h3 class="certificate-title">Lloyds Banking Group Data Science Job Simulation</h3>
-                        <span class="certificate-issuer">Forage | May 2026</span>
-                        <span class="certificate-date">May 2026</span>
-                        <p class="certificate-description">
-                            Completed a job simulation for the Data Science & Analytics team at Lloyds Banking Group focused on customer churn prediction, where I developed and implemented predictive models using Random Forest and other machine learning techniques, achieving an ROC-AUC score of 0.82, conducted advanced data preprocessing including handling missing values, encoding categorical variables, and feature scaling using pandas, scikit-learn, and Matplotlib, and performed comprehensive model evaluation and hyperparameter optimisation with GridSearchCV while using feature importance analysis to generate actionable business insights for customer retention strategies.
-                        </p>
-                    </div>
-
-                    <div class="certificate-item">
-                        <h3 class="certificate-title">Walmart USA Advanced Software Engineering Virtual Experience Program</h3>
-                        <span class="certificate-issuer">Forage | May 2026</span>
-                        <span class="certificate-date">May 2026</span>
-                        <p class="certificate-description">
-                            Completed the Advanced Software Engineering Job Simulation at Walmart, where I solved complex technical challenges across multiple teams by developing a novel heap-based data structure in Java for Walmart’s shipping department, demonstrating strong algorithmic and problem-solving skills, designing a UML class diagram for a dynamically configurable data processor with multiple operating modes and database connections, and creating an entity relationship diagram for a centralized relational database system that satisfied all requirements for Walmart’s pet department.
-                        </p>
-                    </div>
-
-                    <div class="certificate-item">
-                        <h3 class="certificate-title">JPMorgan Chase & Co. Quantitative Research Virtual Experience Program</h3>
-                        <span class="certificate-issuer">Forage | May 2026</span>
-                        <span class="certificate-date">May 2026</span>
-                        <p class="certificate-description">
-                            Completed a quantitative research simulation focused on credit risk modelling and data analysis, where I analysed a portfolio of loans to estimate customer probability of default (PD), developed predictive risk models using Python, and applied dynamic programming techniques to convert FICO scores into categorical rating buckets for improved default prediction and credit risk assessment.
-                        </p>
-                    </div>
-
-                    <!-- Add more certificate items here as needed -->
-                    <!-- Copy the certificate-item div above and paste below to add more certificates -->
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="section">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Contact Me</h2>
-                </div>
-
-                <div class="contact-container">
-                    <div class="contact-info-box">
-                        <h3>Get in Touch</h3>
-
-                        <div class="contact-info-item">
-                            <div class="contact-info-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-info-text">
-                                <h4>Email</h4>
-                                <p>anshulsharma.de@gmail.com</p>
-                            </div>
-                        </div>
-
-                        <div class="contact-info-item">
-                            <div class="contact-info-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="contact-info-text">
-                                <h4>Phone</h4>
-                                <p>+49 15212596460</p>
-                            </div>
-                        </div>
-
-                        <div class="contact-info-item">
-                            <div class="contact-info-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="contact-info-text">
-                                <h4>Location</h4>
-                                <p>Berlin, Germany</p>
-                            </div>
-                        </div>
-
-                        <div class="social-links" style="margin-top: 2rem; justify-content: flex-start;">
-                            <a href="https://www.linkedin.com/in/ansshulsharmaa/" target="_blank" rel="noopener">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://github.com/anshul-1999/" target="_blank" rel="noopener">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="contact-form">
-                        <h3>Send Me a Message</h3>
-
-                        <form id="contact-form">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="from_name" class="form-control" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="reply_to" class="form-control" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="subject">Subject</label>
-                                <input type="text" id="subject" name="subject" class="form-control" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" class="form-control" required></textarea>
-                            </div>
-
-                            <div id="form-message" class="form-message"></div>
-
-                            <input type="submit" id="button" value="Send Message" class="submit-btn">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <a href="#" class="footer-logo">Anshul <span>Sharma</span></a>
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#experience">Experience</a>
-                    <a href="#education">Education</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#certificates">Certificates</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                <div class="footer-social">
-                    <a href="https://www.linkedin.com/in/ansshulsharmaa/"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/anshul-1999/"><i class="fab fa-github"></i></a>
-                </div>
-                <p class="copyright">
-                    &copy; <span id="currentYear"></span> Anshul Sharma. All Rights Reserved.
-                </p>
-            </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Berlin, Germany</span>
         </div>
-    </footer>
+      </div>
 
-    <!-- Back to Top Button -->
-    <a href="#" class="back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/ansshulsharmaa/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
 
-    <!-- Image Popup / Lightbox -->
-    <div id="image-popup" class="image-popup">
-        <span class="close-popup">&times;</span>
-        <img class="popup-content" id="popup-img" alt="Project Preview">
+        <a href="https://github.com/anshul-1999/" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="container nav-container">
+    <a href="#" class="logo">Anshul<span> Sharma</span></a>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button class="mobile-menu-btn" aria-label="Open menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+<main>
+
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>About Me</h2>
     </div>
 
-    <!-- JavaScript Files -->
-    <script src="js/script.js"></script>
+    <div class="about-content">
+      <div class="about-text">
+        <h3>Data Analyst with 2+ Years of Experience</h3>
+
+        <p>
+          I'm a Data Analyst with more than 2 years of experience in implementing impactful projects through data mining,
+          statistical analysis, and data visualization. My solid knowledge in Python and SQL enables me to translate
+          complex datasets into actionable insights to support informed decisions.
+        </p>
+
+        <p>
+          I have demonstrated ability to improve user engagement and project outcomes through innovative solutions and
+          careful planning. Skilled in using tools like Tableau to present data-based relationships for strategic growth
+          and operational efficiency.
+        </p>
+
+        <div class="skills">
+          <span class="skill">Python</span>
+          <span class="skill">SQL</span>
+          <span class="skill">Tableau</span>
+          <span class="skill">Data Analysis</span>
+          <span class="skill">Machine Learning</span>
+          <span class="skill">Data Visualization</span>
+          <span class="skill">Pandas</span>
+          <span class="skill">NumPy</span>
+          <span class="skill">Statistical Analysis</span>
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">PHP</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">React JS</span>
+          <span class="skill">FastAPI</span>
+          <span class="skill">Flask</span>
+          <span class="skill">Docker</span>
+        </div>
+      </div>
+
+      <div class="about-img">
+        <img src="images/about_me.png" alt="About Anshul Sharma" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Work Experience</h2>
+    </div>
+
+    <div class="experience-container">
+
+      <div class="experience-item">
+        <div class="experience-header">
+          <h3 class="experience-title">Sr. Project Technical Assistant</h3>
+          <span class="experience-date">Nov 2021 - Jun 2024</span>
+        </div>
+
+        <span class="experience-company">IIT Bombay | Mumbai, India</span>
+
+        <p class="experience-description">
+          Supported the creation of technical documentation and ensured compliance with project specifications.
+          Maintained and managed project schedules with project management software for timely delivery and improved user experience.
+        </p>
+
+        <ul class="experience-points">
+          <li>Collaborated with technical teams for accurate and timely results and to increase customer satisfaction.</li>
+          <li>Identified and mitigated project risks through appropriate strategies.</li>
+          <li>Applied data analysis techniques to track user behavior and improve user interface.</li>
+          <li>Developed new features through web research and innovative web techniques.</li>
+        </ul>
+
+        <div class="experience-skills">
+          <span class="experience-skill">Data Analysis</span>
+          <span class="experience-skill">Project Management</span>
+          <span class="experience-skill">Technical Documentation</span>
+          <span class="experience-skill">User Experience</span>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-header">
+          <h3 class="experience-title">Data Science Intern (Remote)</h3>
+          <span class="experience-date">Dec 2022 - Jun 2023</span>
+        </div>
+
+        <span class="experience-company">Fliprobo Technologies | Bangalore, India</span>
+
+        <p class="experience-description">
+          Applied SQL, Python and data analysis in various projects. Used Beautiful Soup for web scraping and data collection from online sources.
+        </p>
+
+        <ul class="experience-points">
+          <li>Preprocessed data with Pandas and generated new features.</li>
+          <li>Automated data processes with NumPy and Pandas.</li>
+          <li>Improved Tableau analyses through self-study in Python, R, and SQL.</li>
+          <li>Developed data models to analyze complex datasets.</li>
+          <li>Optimized ML models to improve prediction accuracy.</li>
+        </ul>
+
+        <div class="experience-skills">
+          <span class="experience-skill">Python</span>
+          <span class="experience-skill">SQL</span>
+          <span class="experience-skill">Pandas</span>
+          <span class="experience-skill">Web Scraping</span>
+          <span class="experience-skill">Machine Learning</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="education" class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Education</h2>
+    </div>
+
+    <div class="education-container">
+
+      <div class="education-item">
+        <div class="education-icon">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <h3 class="education-title">Masters Data Science</h3>
+        <span class="education-school">XU Exponential University of Applied Science, Potsdam, Germany</span>
+        <span class="education-date">October 2025 - September 2027</span>
+        <p class="education-description">Start of the Master's program from October 2025.</p>
+      </div>
+
+      <div class="education-item">
+        <div class="education-icon">
+          <i class="fas fa-language"></i>
+        </div>
+        <h3 class="education-title">Intensive German Language Course (A1 to C1)</h3>
+        <span class="education-school">Acrolect International Sprachschule | Germany</span>
+        <span class="education-date">Dec 2024 - Present</span>
+        <p class="education-description">
+          Full-time intensive German course. Currently at B2 level with focus on professional language skills.
+        </p>
+      </div>
+
+      <div class="education-item">
+        <div class="education-icon">
+          <i class="fas fa-university"></i>
+        </div>
+        <h3 class="education-title">Bachelor of Technology</h3>
+        <span class="education-school">Dr. A.P.J. Abdul Kalam Technical University | Lucknow, India</span>
+        <span class="education-date">Aug 2017 - Sep 2021</span>
+        <p class="education-description">
+          Graduated with 1st Division in Computer Science and Engineering.
+        </p>
+      </div>
+
+      <div class="education-item">
+        <div class="education-icon">
+          <i class="fas fa-school"></i>
+        </div>
+        <h3 class="education-title">High School</h3>
+        <span class="education-school">St. John's Senior Secondary School | Meerut, India</span>
+        <span class="education-date">Mar 2014 - Apr 2017</span>
+        <p class="education-description">
+          Completed secondary and upper secondary education with focus on science and mathematics.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="projects-container">
+
+      <div class="project-item">
+        <div class="project-img">
+          <img class="project-image" src="images/Portfolio_crime.png" alt="Crime in India Analysis" loading="lazy">
+        </div>
+
+        <div class="project-content">
+          <h3 class="project-title">Crime in India (Analysis and Clustering)</h3>
+
+          <p class="project-description">
+            Data analysis and clustering to assess criminal danger zones. Analyzed education level vs. crime,
+            yearly patterns, and geographical differences using SQL and Python.
+          </p>
+
+          <div class="project-skills">
+            <span class="project-skill">Python</span>
+            <span class="project-skill">SQL</span>
+            <span class="project-skill">Tableau</span>
+            <span class="project-skill">Machine Learning</span>
+            <span class="project-skill">Clustering</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/anshul-1999/Crime-Capstone" class="project-link" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+              <span>View on GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-img">
+          <img class="project-image" src="images/Portfolio_pryas.png" alt="Pryas School Management System" loading="lazy">
+        </div>
+
+        <div class="project-content">
+          <h3 class="project-title">Pryas - School Management System</h3>
+
+          <p class="project-description">
+            Bachelor thesis project based on a web-based School Management System for online examinations,
+            school competitions, note exchange, and multiple exam formats.
+          </p>
+
+          <div class="project-skills">
+            <span class="project-skill">Web Development</span>
+            <span class="project-skill">Database</span>
+            <span class="project-skill">System Design</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://www.ijaresm.com/pryas" class="project-link" target="_blank" rel="noopener">
+              <i class="fas fa-link"></i>
+              <span>View Research</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-img">
+          <img class="project-image" src="images/assistant.png" alt="AI Assistant with Long-Term Memory" loading="lazy">
+        </div>
+
+        <div class="project-content">
+          <h3 class="project-title">AI Assistant with Long-Term Memory, Voice & Streaming Chat UI</h3>
+
+          <p class="project-description">
+            A fully local AI assistant with persistent memory, voice interaction, and ChatGPT-style streaming interface using open-source LLMs.
+          </p>
+
+          <div class="project-skills">
+            <span class="project-skill">Python</span>
+            <span class="project-skill">Streamlit</span>
+            <span class="project-skill">Ollama</span>
+            <span class="project-skill">Docker</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/anshul-1999/AI_Assistant" class="project-link" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+              <span>View on GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-img">
+          <img class="project-image" src="images/docs.png" alt="AI Document Search and Chat" loading="lazy">
+        </div>
+
+        <div class="project-content">
+          <h3 class="project-title">AI Document Search & Chat (Hybrid RAG System)</h3>
+
+          <p class="project-description">
+            End-to-end Retrieval-Augmented Generation system allowing users to upload PDFs and interact with them using natural language chat.
+          </p>
+
+          <div class="project-skills">
+            <span class="project-skill">Python</span>
+            <span class="project-skill">FastAPI</span>
+            <span class="project-skill">Streamlit</span>
+            <span class="project-skill">BM25</span>
+            <span class="project-skill">Ollama</span>
+            <span class="project-skill">FAISS</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/anshul-1999/AI_DOC_Search" class="project-link" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+              <span>View on GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-img">
+          <img class="project-image" src="images/Parallel.jpg" alt="Multi-Node Distributed File Scanning System" loading="lazy">
+        </div>
+
+        <div class="project-content">
+          <h3 class="project-title">Multi-Node Distributed File Scanning System (C++ & MPI)</h3>
+
+          <p class="project-description">
+            Distributed-memory parallel system using MPI and C++ multithreading to scan and analyze files across multiple nodes with hashing and task distribution.
+          </p>
+
+          <div class="project-skills">
+            <span class="project-skill">C++</span>
+            <span class="project-skill">MPI</span>
+            <span class="project-skill">Multithreading</span>
+            <span class="project-skill">File Hashing</span>
+            <span class="project-skill">Parallel Computing</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/anshul-1999/Multi-Node-Distributed-File-Scanning-System-C-MPI-" class="project-link" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+              <span>View on GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-img">
+          <img class="project-image" src="images/IR.jpg" alt="Offline Information Retrieval Search System" loading="lazy">
+        </div>
+
+        <div class="project-content">
+          <h3 class="project-title">Offline Information Retrieval (IR) & Search System</h3>
+
+          <p class="project-description">
+            Complete IR pipeline with TF-IDF indexing, Vector Space Model, cosine similarity, Flask search interface,
+            and Precision@K evaluation.
+          </p>
+
+          <div class="project-skills">
+            <span class="project-skill">Python</span>
+            <span class="project-skill">Flask</span>
+            <span class="project-skill">TF-IDF</span>
+            <span class="project-skill">Cosine Similarity</span>
+            <span class="project-skill">Precision@K</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/anshul-1999/Offline-Information-Retrieval-IR-Search-System-Python-Flask-" class="project-link" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+              <span>View on GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="certificates" class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Certificates</h2>
+    </div>
+
+    <div class="certificates-container">
+
+      <div class="certificate-item">
+        <h3 class="certificate-title">BCG Data Science Job Simulation</h3>
+        <span class="certificate-issuer">Forage | July 2025</span>
+        <span class="certificate-date">July 2025</span>
+        <p class="certificate-description">
+          Conducted a customer churn analysis simulation, identified key customer data, and developed a strategic investigation approach using Python.
+        </p>
+      </div>
+
+      <div class="certificate-item">
+        <h3 class="certificate-title">Quantium Data Analytics Job Simulation</h3>
+        <span class="certificate-issuer">Forage | May 2025</span>
+        <span class="certificate-date">May 2025</span>
+        <p class="certificate-description">
+          Completed a practical simulation focused on customer analytics, data preparation, and commercial insights.
+        </p>
+      </div>
+
+      <div class="certificate-item">
+        <h3 class="certificate-title">PG Program in Data Science</h3>
+        <span class="certificate-issuer">Datatrained | Noida, India</span>
+        <span class="certificate-date">Aug 2022 - Sep 2023</span>
+        <p class="certificate-description">
+          Certificates in Python, Data Wrangling, Data Visualization, SQL, and Applied Statistics.
+        </p>
+      </div>
+
+      <div class="certificate-item">
+        <h3 class="certificate-title">Deloitte Australia Data Analytics Job Simulation</h3>
+        <span class="certificate-issuer">Forage | May 2026</span>
+        <span class="certificate-date">May 2026</span>
+        <p class="certificate-description">
+          Created an interactive Tableau dashboard and used Excel to classify data, analyze equality metrics, and draw business conclusions.
+        </p>
+      </div>
+
+      <div class="certificate-item">
+        <h3 class="certificate-title">Electronic Arts Software Engineering Virtual Experience Program</h3>
+        <span class="certificate-issuer">Forage | May 2026</span>
+        <span class="certificate-date">May 2026</span>
+        <p class="certificate-description">
+          Proposed a feature, built class diagrams, developed C++ class definitions, and optimized inventory functionality.
+        </p>
+      </div>
+
+      <div class="certificate-item">
+        <h3 class="certificate-title">Lloyds Banking Group Data Science Job Simulation</h3>
+        <span class="certificate-issuer">Forage | May 2026</span>
+        <span class="certificate-date">May 2026</span>
+        <p class="certificate-description">
+          Developed customer churn models using machine learning, evaluated model performance, and generated retention insights.
+        </p>
+      </div>
+
+      <div class="certificate-item">
+        <h3 class="certificate-title">Walmart USA Advanced Software Engineering Virtual Experience Program</h3>
+        <span class="certificate-issuer">Forage | May 2026</span>
+        <span class="certificate-date">May 2026</span>
+        <p class="certificate-description">
+          Solved technical challenges involving data structures, UML design, and relational database modeling.
+        </p>
+      </div>
+
+      <div class="certificate-item">
+        <h3 class="certificate-title">JPMorgan Chase & Co. Quantitative Research Virtual Experience Program</h3>
+        <span class="certificate-issuer">Forage | May 2026</span>
+        <span class="certificate-date">May 2026</span>
+        <p class="certificate-description">
+          Built credit risk models, estimated probability of default, and converted FICO scores into rating buckets.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Contact Me</h2>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-info-box">
+        <h3>Get in Touch</h3>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-info-text">
+            <h4>Email</h4>
+            <p>anshulsharma.de@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-info-text">
+            <h4>Phone</h4>
+            <p>+49 15212596460</p>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-info-text">
+            <h4>Location</h4>
+            <p>Berlin, Germany</p>
+          </div>
+        </div>
+
+        <div class="social-links" style="margin-top: 2rem; justify-content: flex-start;">
+          <a href="https://www.linkedin.com/in/ansshulsharmaa/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/anshul-1999/" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3>Send Me a Message</h3>
+
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="from_name" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="reply_to" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="form-control" required></textarea>
+          </div>
+
+          <div id="form-message" class="form-message"></div>
+
+          <input type="submit" id="button" value="Send Message" class="submit-btn">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <a href="#" class="footer-logo">Anshul <span>Sharma</span></a>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/ansshulsharmaa/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/anshul-1999/" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <p class="copyright">
+        &copy; <span id="currentYear"></span> Anshul Sharma. All Rights Reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="back-to-top" aria-label="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<div id="image-popup" class="image-popup">
+  <span class="close-popup">&times;</span>
+  <img class="popup-content" id="popup-img" alt="Project Preview">
+</div>
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
